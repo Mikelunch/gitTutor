@@ -377,5 +377,14 @@ password.txt
 
 ![](.\pic\45.png)
 
+## CP4 GitHub篇
+
+我们这章将会新建一个GitHub的远程仓库，并学习它如何通过git和本地仓库相互联系。
+
+### 创建一个GitHub仓库
+
+我们假设你已经学会了如何注册GitHub账号，并配置好了SSH等配置。如有不懂，请看[github注册教程](https://www.bilibili.com/video/BV1HM411377j?spm_id_from=333.788.videopod.sections&vd_source=9cfe8c96e4fed1941ab35fc34dd2dde3&p=11)
+
+### 管理本地和远程仓库
 
 

@@ -341,6 +341,19 @@ git rm 文件
 
 ![](.\pic\40.png)
 
+我们创建一个file3.txt和password.txt的文件，我们将file3.txt纳入git管理，而不想password.txt纳入git管理中
 
+```
+echo password.txt > .gitignore
+```
+
+即创建一个`.gitignore`的文件来记录需要被git忽略管理的文件名称。
+
+这样过后，我们对比git对password.txt的管理
+
+![](.\pic\41.png)
+![](.\pic\42.png)
+
+我们提交一下，看看暂存区的效果
 
 

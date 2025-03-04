@@ -471,3 +471,32 @@ git pull origin main
 
 ![](.\pic\55.png)
 
+总结一下
+
+![](.\pic\56.png)
+
+### git clone
+
+假如我们本地没有仓库，而github上有仓库，我们也可以从github上下载一个仓库到本地，操作和上一节的内容是完全镜像的。
+
+我们新建一个空文件夹，并将它纳入git管理。
+
+![](.\pic\57.png)
+
+我们就利用上一节的github上传来克隆它到这个文件夹下。
+
+![](.\pic\58.png)
+
+```
+git remote add origin git@github.com:Mikelunch/gitTutor.git
+```
+
+然后使用
+```
+git clone git@github.com:Mikelunch/gitTutor.git
+```
+
+即可下载，美美得吃
+
+![](.\pic\59.png)
+

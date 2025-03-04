@@ -456,6 +456,10 @@ git push -u origin main:main
 
 这个命令用来将远程仓库中的修改同步到本地仓库中。我们在giuhub上去这个文件下去编辑一下
 
+![](.\pic\53.png)
+
+![](.\pic\54.png)
+
 ```
 这行代码是在github上编辑的
 ```
@@ -464,3 +468,6 @@ git push -u origin main:main
 git pull origin main
 ```
 它表示从远程仓库`origin`中拉去`main`分支同步到本地。同步过后的效果如下
+
+![](.\pic\55.png)
+

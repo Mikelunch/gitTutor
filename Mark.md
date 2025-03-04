@@ -307,5 +307,10 @@ git diff --cached file1.txt
 表明暂存区的内容和版本库中的是一致的。
 
 `git diff`除了比较上诉三个区域内文件的差异，也可以比较两个特征版本之间文件的差异，如下
+
 ```
-git diff HEAD HEAD^
+git diff 版本ID1 版本ID2
+```
+效果如图\
+![](.\pic\36.png)
+

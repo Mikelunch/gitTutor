@@ -571,3 +571,12 @@ git switch dev
 ```
 git merge dev
 ```
+
+我们就可以在`main`分支下看到`dev`分支开发的内容，帮整合到了`main`分支下。
+
+![](.\pic\69.png)
+
+这里，vscode也可视化的为我们展示了合并的分支过程
+
+![](.\pic\70.png)
+

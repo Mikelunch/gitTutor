@@ -356,4 +356,26 @@ echo password.txt > .gitignore
 
 我们提交一下，看看暂存区的效果
 
+![](.\pic\43.png)
+
+发现，暂存区也没有相关记录，说明`password.txt`这个文件已经被git忽略管理。即使我们修改了其中的内容，也不会被git跟踪。
+
+值得注意的是`.gitignore`适配shell语言，即它支持通配符语法，打开`.gitignore`
+```
+password.txt
+*.txt
+```
+这表示它以后将忽略所有.txt后缀的文件管理
+
+**注意，想要git忽略管理某个文件，需要这个文件事先不被git所管理，而是一开始就添加到.gitignore**文件，否则git仍会管理这个文件，即使它后续假如到到了`.gitignor`中了。
+
+**如果文件夹是空的，则假如.gitignore后不会生效**
+
+这里补充下`gitignore`的匹配规则和示意
+
+![](.\pic\44.png)
+
+![](.\pic\45.png)
+
+
 

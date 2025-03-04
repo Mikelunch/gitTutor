@@ -331,6 +331,16 @@ git rm 文件
 ![](.\pic\37.png)
 ![](.\pic\38.png)
 
+总结
+
+![](.\pic\39.png)
+
+### .gitignore
+
+用于git管理一些需要git忽略的文件。
+
+![](.\pic\40.png)
+
 
 
 

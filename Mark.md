@@ -602,3 +602,9 @@ git branch -D dev
 ```
 
 强制删除，也可融合后再删除，up to you
+
+![](.\pic\73.png)
+
+* 总结
+
+![](.\pic\74.png)

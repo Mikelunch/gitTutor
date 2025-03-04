@@ -511,3 +511,37 @@ git clone git@github.com:Mikelunch/gitTutor.git
 假设我们按下图的方式，先建立好`main`分支
 
 ![](.\pic\61.png)
+
+为了方便展示，我们在`vscode`上能很好的参看当前分支的情况
+
+![](.\pic\62.png)
+
+### git branch
+
+接下来，我们创建新的分支`dev`
+
+```
+git branch dev
+```
+
+即可，接下来，使用
+```
+git branch -v
+```
+
+可以查看本地仓库中的所有分支，如图所示
+
+![](.\pic\63.png)
+
+### git switch
+
+用于切换分支
+
+```
+git switch dev
+```
+
+可以看见，后面的分支名称变成了dev
+
+![](.\pic\64.png)
+
